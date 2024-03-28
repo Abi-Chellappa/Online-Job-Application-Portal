@@ -1,0 +1,116 @@
+
+/* footer */
+*{
+    margin: 0;
+    padding: 0;
+   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footfull
+{
+    display: flex;
+    flex-direction: column;
+    height: 0vh;
+    z-index: 1;
+   
+   
+}
+footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    background-color:  rgb(65, 96, 174);
+    padding: 60px 190px;
+   
+   
+}
+footer ul{
+    list-style: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.footer-col{
+    width: 25%;
+    text-align: justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer-col h4
+{
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #f1bc0d;
+    text-transform: capitalize;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 10;
+    bottom: -6px;
+    background-color: #27c0ac;
+    height: 2px;
+    width: 40px;
+}
+footer ul li:not(:last-child)
+{
+   margin-bottom: 8px;    
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer ul li a{
+    display: block;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+   
+  
+    
+}
+footer ul li a:hover{
+    color: rgb(49, 18, 78);
+    padding-left: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.sociellink .sicon
+{
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    background-color: white;
+    color: rgba(25, 127, 223, 0.8);
+    margin: 0 8px 8px 0;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.sociellink .sicon:hover{
+    color: white;
+    background-color: rgba(25, 127, 223, 0.8);
+}
+@media(max-width:740px)
+{
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .footer-col h4::before{
+        all:unset;
+    }
+}
+@media(max-width:555px){
+    .footer-col{
+        width: 100%;
+    }
+}
+.user1{
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: 20px;
+    
+}

@@ -1,0 +1,79 @@
+.about_full{
+     width: 1230px;
+     height: 950px;
+    background: white;
+    margin-left: 150px;
+     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+     margin-bottom: 40px;
+}
+.about_full .about_con1{
+    width: 1030px;
+    margin-left: 150px;
+    height: 450px;
+  
+    
+   
+}
+.about_full .about_con1 .about_det{
+    margin-left: 490px;
+    margin-top: 20px;
+}
+.about_con1 .about_det img{
+    
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.about_con1 .about_para
+{
+position: absolute;
+width: 540px;
+font-size: 17px;
+font-family: "Rubik", sans-serif;
+margin-top: 80px;
+margin-left: -93px;
+}
+.about_con1 .about_para p
+{
+    text-align: left;
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 27px;
+    color: rgb(29, 29, 29);
+
+}
+.about_full .about_con2{
+    width: 100px;
+    margin-left: 150px;
+    height: 450px;
+   
+   
+}
+.about_full .about_con2 .about_det2{
+    margin-left: 600px;
+    margin-top: 20px;
+}
+.about_con2 .about_det2 img{
+    
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: -700px;
+}
+.about_con2 .about_para2
+{
+position: absolute;
+width: 540px;
+font-size: 17px;
+font-family: "Rubik", sans-serif;
+margin-top: -370px;
+padding-left: 50px;
+margin-left: 460px;
+}
+.about_con2 .about_para2 p
+{
+    text-align: left;
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 27px;
+    color: rgb(29, 29, 29);
+
+}

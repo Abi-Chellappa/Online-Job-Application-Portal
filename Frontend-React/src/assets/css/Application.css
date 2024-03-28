@@ -1,0 +1,124 @@
+/* Application.css */
+
+.jobpost {
+   margin-left:-33px;
+    margin-top: 123px;
+    font-size: 23px;
+    
+  }
+  
+  .jobpost h2 {
+    color: #333;
+  }
+  .card_container{
+    width: 1318px;
+    height: 120vh;
+    margin-top: -80px;
+    margin-left: 200px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 70px;
+    background: whitesmoke;
+  }
+  .card {
+    width: 300px;
+    height: 280px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
+    display: flex;
+    display: inline-block;
+    margin-right: 43px;
+    margin-top: 48px;
+    margin-bottom: -5px;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .card-content h3 {
+    color: #666;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .job-info {
+    margin-top: 10px;
+  }
+  
+  .field {
+    margin-bottom: 5px;
+    color: #777;
+  }
+  
+  .buttons {
+    margin-top: 15px;
+  }
+  
+  .deleteButton {
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #cb0c0c;
+    color: #fff;
+  }
+  
+  .deleteButton:hover {
+    background-color: #e45749;
+  }
+  
+  .postButton {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .postButton:hover {
+    background-color: #45a049;
+  }
+  .applicationhead{
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+  }
+  .applicationhead h2{
+    color: #333;
+    font-size: 29px;
+  }
+  .delete{
+    background: red;
+    position: absolute;
+    font-family: Arial;
+    width: 60px;
+    height: 23px;
+    background: rgb(235, 93, 93);
+    border-radius: 5px;
+    border: none;
+  
+   
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+    padding: 3px 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #cb0c0c;
+    color: #fff;
+    
+  }

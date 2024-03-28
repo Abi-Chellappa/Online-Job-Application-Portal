@@ -1,0 +1,66 @@
+/* Payment form container */
+.payment-container {
+    max-width: 530px; /* Increased width */
+    margin: 0 auto;
+    padding: 60px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    margin-top: 150px;
+    
+  }
+  .payfull{
+   
+    margin-bottom: 100px;
+  }
+  /* Heading */
+  .payment-container h2 {
+    text-align: center;
+  }
+  
+  /* Form styling */
+  .payment-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Labels */
+  .payment-container label {
+    margin-bottom: 10px; /* Increased space between labels and inputs */
+  }
+  
+  /* Input fields */
+  .payment-container input[type="number"],
+  .payment-container input[type="date"],
+  .payment-container input[type="text"],
+  .payment-container button {
+    padding: 12px; /* Increased padding */
+    margin-bottom: 20px; /* Increased space between input fields */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Radio buttons */
+  .payment-container input[type="radio"] {
+      margin-right: 5px;
+    }
+    .payment-container input[type="number"],input[type="date"]{
+      width: 300px;
+    }
+  /* Submit button */
+  .payment-container .successbut {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .payment-container .cancelbut {
+    background-color: rgb(207, 42, 42);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+  }
+  

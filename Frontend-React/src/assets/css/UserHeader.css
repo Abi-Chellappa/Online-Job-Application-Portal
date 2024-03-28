@@ -1,0 +1,216 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+nav{
+      width: 100%;
+      height: 11vh;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.375);
+      z-index: 1;
+      position: fixed;
+     
+}
+nav img{
+    position: absolute;
+   
+    left: 10%;
+}
+nav ul{
+    float: right;
+    margin-right: 410px;
+    display: flex;
+   
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 43px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav ul li a{
+    position: absolute;
+    
+    color: rgb(71, 66, 66);
+    text-decoration: none;
+    
+    
+}
+nav ul li a:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 20px;
+    height: 3px;
+    width: 100%;
+    background: blue;
+    color: blue;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+}
+nav ul li a:hover{
+    color: blue;
+}
+nav ul li a:hover:before{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.auth{
+   
+   position: relative;
+    display: flex;
+    margin-left: 1230px;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.auth p{
+    margin-top: 31px;
+    font-family: 'Times New Roman';
+}
+.auth p a{
+    text-decoration: none;
+    color: rgb(71, 66, 66);
+
+}
+.auth p a:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 10px;
+    height: 3px;
+    width: 100%;
+    background: blue;
+    color: blue;
+    transform: scaleX(0);
+    transform-origin: right;
+    
+}
+.auth p a:hover{
+    color: blue;
+}
+.auth p a:hover:before{
+    transform: scaleX(0.1);
+    transform-origin: left;
+}
+.auth .signupbtn{
+    margin-top: 20px;
+}
+.auth button{
+   
+    height: 35px;
+    width: 90px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    font-size: 15px;
+    margin: 0px 22px;
+    display: flex;
+    border-radius: 4px;
+    background: blue;
+    color: #fff;
+   
+    
+    cursor: pointer;
+    transition: background 1s;
+   border: 0;
+    
+}
+.auth button a{
+    text-decoration: none;
+    color: #fff;
+}
+.pro_image
+{
+    margin-top: -45px;
+    margin-left: 1280px;
+}
+.sub-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 2%;
+    width: 290px;
+    max-height: 400px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    margin-top: -10px;
+   
+  
+}
+.sub-menu-wrap .open-menu{
+    max-height: 400px;
+}
+.sub-menu{
+    background: #fff;;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 1px;
+  
+}
+.user-pic{
+    
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -45px;
+    margin-left: 1280px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    
+}
+.user-info h2{
+    font-weight: 600;
+    padding-left: 60px;
+    font-size: 22px;
+}
+.user-info img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+    
+}
+.sub-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+   
+}
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 17px 0;
+}
+.sub-menu-link p{
+    width: 100%;
+}
+.sub-menu-link img{
+    width: 35px;
+    background: #eeeaea;
+    border-radius: 50%;
+    padding: 8.5px;
+    margin-left: 0px;
+}
+.sub-menu-link p{
+    margin-left: 60px;
+}
+.sub-menu-link span{
+    font-size: 22px;
+    transition: transform 0.5s;
+    margin-right: 10px;
+
+}
+.sub-menu-link:hover span{
+    transform: translateX(5px);
+}
+.sub-menu-link:hover p{
+    font-weight: 600;
+}

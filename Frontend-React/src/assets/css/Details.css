@@ -1,0 +1,168 @@
+.des_full{
+    height: 100vh;
+    max-width: 900px;
+    margin: 20px auto;
+    height: 1300px;
+    
+
+
+}
+.job_des{
+max-width: 900px;
+margin: 20px auto;
+font-family: "Rubik", sans-serif;
+height: 270px;
+background: white;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.132);
+border-radius: 26px;
+padding: 25px;
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+
+}
+.job-con1{
+    max-width: 900px;
+margin: 20px auto;
+font-family: "Rubik", sans-serif;
+height: 970px;
+background: white;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.132);
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+border-radius: 26px;
+padding: 25px;
+
+}
+.job_des .job_head{
+    display: flex;
+}
+.job_des .job_head img{
+    width: 46px;
+    border-radius: 14px;
+} 
+.job_des .job_head h2{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 35px;
+}
+.job_des .job_location{
+display: flex;
+display: inline-block;
+margin-top: 19px;
+margin-left: 20px;
+}
+.job_des  .job_location p{
+    margin-top: -20px;
+    margin-left: 30px;
+    
+}
+.job_des .job_salary{
+display: flex;
+display: inline-block;
+margin-top: 14px;
+margin-left: 20px;
+}
+.job_des  .job_salary p{
+    margin-top: -20px;
+    margin-left: 30px;
+    margin-bottom: 12px;
+}
+.job_des .job_apply{
+    margin-left: 20px;
+    margin-top: 10px;
+} 
+.job_des .job_apply button{
+     width: 200px;
+     height: 36px;
+     border: 0;
+     background: rgb(52, 52, 238);
+     color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.job_des .job_apply button a{
+    text-decoration: none;
+    color: white;
+}
+.job-con1 .job_high{
+    width: 830px;
+    height: 100px;
+    background: white;
+    border-radius: 18px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 11px;
+    border: 4px 4px 4px 4px blue;
+    box-shadow: 4px 4px 4px 4px  rgba(0, 0, 0, 0.144);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.job-con1 .job_high h3{
+    margin-top: 5px;
+     font-size: 26px;
+}
+.job-con1 .job_high p{
+    margin-top: -22px;
+    margin-left: 30px;
+    font-size: 17px;
+}
+.job-con1 .jd h3{
+    margin-top: 35px;
+    margin-left: 23px;
+    font-size: 28px;
+    margin-bottom: 21px;
+}
+.job-con1 .jd p{
+    margin-left: 23px;
+    line-height: 28px;
+    color: rgb(35, 32, 32);
+    font-size: 17px;
+    font-weight: 200000000px;
+    letter-spacing: 0px;
+   
+    list-style-type: disc;
+}
+.job_skill h3{
+    margin-top: 29px;
+    margin-left: 23px;
+    font-size: 28px;
+    margin-bottom: 27px;
+}
+.job_skill .but_skill{
+    margin-left: 20px;
+    width: 750px;
+}
+.job_skill .but_skill button{
+    width: 120px;
+    height: 35px;
+    border-radius: 25px;
+    border: 0;
+    margin-right: 20px;
+    margin-bottom: 10PX;
+    font-family: cursive;
+    background: rgb(224, 219, 210);
+}
+.job_skill .job_req h3{
+    margin-top: 31px;
+    margin-left: 23px;
+    font-size: 28px;
+    margin-bottom: 36px;
+}
+.job_skill .job_req .req_con{
+    margin-left: 26px;
+    display: flex;
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 17px;
+   
+}
+.job_skill .job_req .req_con p{
+   
+    margin-left: 33px;
+    margin-top: -25px;
+    margin-bottom: 9px;
+    line-height: 20px;
+    font-size: 17.5px;;
+    font-weight: 2000px;
+}
+.job_skill .job_req .req_con p span{
+    color: rgb(143, 109, 109);
+    font-size: 16px;
+}

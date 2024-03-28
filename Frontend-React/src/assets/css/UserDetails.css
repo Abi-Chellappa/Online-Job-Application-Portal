@@ -1,0 +1,49 @@
+/* UserDetails.css */
+
+.userdetailsfull{
+  background: whitesmoke;
+    height: 100vh;
+  }
+  .dhead
+  {
+    margin-top: 25px;
+    font-weight: 500;
+  }
+  .userdetailsfull  .App table {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .userdetailsfull  .App h1{
+    margin-left: 270px;
+    color: rgb(64, 52, 52);
+    margin-bottom: 30px;
+  }
+  .userdetailsfull table {
+    width: 66%; /* Increased table width */
+    margin: 0px auto;
+    border-collapse: collapse;
+    background-color: #ffffff; /* White background for the table */
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); /* Box shadow for a subtle elevation effect */
+    margin-left: 298px;
+     
+}
+  
+  .userdetailsfull  th, td {
+    border: 1px solid #e1e0e0f8;
+    padding: 12px; /* Increased padding for better spacing */
+  }
+  
+  .userdetailsfull th {
+    background-color: rgb(121, 118, 135);
+    color: rgb(233, 231, 231); /* Dark gray text color for table headers */
+  }
+  
+  .userdetailsfulltr:nth-child(even) {
+    background-color: #f8f9fa; /* Alternate row background color */
+  }
+  
+  .userdetailsfull tr:hover {
+    background-color: #e2e6ea; /* Highlight color on hover */
+  }
+  

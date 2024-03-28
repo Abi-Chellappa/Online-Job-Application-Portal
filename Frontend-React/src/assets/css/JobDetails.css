@@ -1,0 +1,137 @@
+.jobs-list-container6 {
+    max-width: 1010px;
+    margin: 20px auto;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 70px;
+    margin-left: 350px;
+    
+  }
+  
+  .jobs-list-container6 h2 {
+    font-size: 30px;
+    border-left: 4px solid #023047;
+    padding-left: 20px;
+   
+  }
+  
+  .jobs-list-container6 .jobs6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+  }
+  
+  .jobs-list-container6 .jobs6 img {
+    width: 60px;
+    border-radius: 10px;
+  }
+  
+  .jobs-list-container6 .job6 {
+    box-shadow: 0 4px 24px -8px rgba(2, 48, 71, 0.2);
+    padding: 24px;
+    border-radius: 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transition: all 400ms ease;
+   
+  }
+  .jobHeadings6
+  {
+    color: rgba(88, 79, 79, 0.966);
+    font-weight: 500;
+    font-weight: bold;
+  }
+  
+  .jobs-list-container6 .job6:hover {
+    transform: scale(1.03);
+  }
+  
+  .jobs-list-container6 .open-positions6 {
+    position: absolute;
+    top: 40px;
+    right: 24px;
+    color: #e63946;
+  }
+  
+  .jobs-list-container6 .job-title6 {
+    font-size: 20px;
+    padding: 10px 0;
+    margin: 0;
+    color: #023047;
+    color: rgb(7, 15, 122);
+  }
+  
+  .jobs-list-container6 .details6 {
+    margin-top: 6px;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.8;
+    flex: 1;
+  }
+  
+  .jobs-list-container6 .details-btn6 {
+    text-decoration: none;
+    
+    color: #000;
+    padding: 5px 1px;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 20px;
+    transition: all 400ms ease;
+    border: none;
+    background-color: #0576af;
+    width: 80px;
+    height: 30px;
+    margin-right: 50px;
+    color: white;
+    cursor: pointer;
+  }
+  .jobs-list-container6 .details-btndel6 {
+    text-decoration: none;
+    border: 1px solid #023047;
+    color: #000;
+    padding: 5px 1px;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: -30px;
+    transition: all 400ms ease;
+    display: flex;
+    width: 80px;
+    height: 30px;
+    margin-left: 100px;
+    display: inline-block;
+    background-color: #c71515;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .jobs-list-container6 .details-btn6:hover {
+    background: #023047;
+    color: #fff;
+  }
+  
+  .jobs-list-container6 .job-search6 {
+    width: 100%;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 940px) {
+    .jobs-list-container .jobs {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .jobs-list-container .jobs {
+      grid-template-columns: 1fr;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  }

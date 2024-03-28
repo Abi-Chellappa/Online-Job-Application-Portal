@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.container_login{
+    height: 100vh;
+    
+    background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)),url('../images/login_signup.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    
+}
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #ffffff;
+    padding: 50px 60px 40px;
+    text-align: center;
+    border-radius: 3px;
+}
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: blue;
+    position: relative;
+}
+.form-box h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: blue;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.form-box .input-group .input-field{
+    background: #dcdbdb;
+    margin: 25px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.form-box .input-group .input-field input[type="email12"],input[type="password12"]{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 15px 15px;
+    font-size: 16px;
+}
+.form-box .input-group .input-field ::placeholder{
+    font-size: 15px;
+}
+.input-field .icon{
+    margin-left: 15px;
+    color: #999;
+}
+.form-box form p{
+    text-align: left;
+    font-size: 16px;
+   
+}
+.form-box form p a{
+    text-decoration: none;
+    color: blue;
+}
+.btn-field{
+    width: 100%;
+   
+    justify-content: space-between;
+    text-decoration: none;
+}
+.btn-field button{
+    flex-basis: 48%;
+    background: rgb(53, 53, 192);
+    color: #fff;
+    height: 40px;
+    width: 330px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+    margin-top: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15.3px;
+}
+.input-group{
+    height: 280px;
+}
+.disable a{
+    text-decoration: none;
+    color: #555;
+}
+.btn-field button.disable{
+    background: #eaeaea;
+    color: #555;
+}
+#subtn:hover{
+    background: blue;
+    cursor: pointer;
+    color: #fff;
+   
+}
+.para-field{
+    margin-top: 25px;
+}
+.para-field p{
+    
+   
+    margin-left: 1px;
+    letter-spacing: 0.5px;
+    
+}
